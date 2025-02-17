@@ -24,6 +24,7 @@ public class Nave {
         System.out.println("2. Orion 7 (300 km/s)");
         System.out.println("3. Enterprise Z (500 km/s)");
         System.out.print("➡️ Ingresa el número correspondiente: ");
+        System.out.println("jaja");
 
         int opcion = scanner.nextInt();
         switch (opcion) {
@@ -33,6 +34,7 @@ public class Nave {
             default:
                 System.out.println("❌ Opción no válida. Se seleccionará Falcon X por defecto.");
                 return new Nave("Falcon X", 200);
+                
         }
     }
 }
